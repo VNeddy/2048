@@ -1,0 +1,149 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+header
+{
+    display: block;
+
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    text-align: center;
+}
+
+header h1
+{
+    margin: 0;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header #newgame_button
+{
+    font-family: Arial;
+    font-size: 20px;
+
+    display: inline-block;
+
+    width: 80px;
+    margin: 10px auto;
+    padding: 10px;
+
+    text-decoration: none;
+
+    color: #fff;
+    border-radius: 10px;
+    background: #8f7a66;
+}
+
+header .back-btn
+{
+    font-family: Arial;
+    font-size: 20px;
+
+    display: inline-block;
+
+    width: 80px;
+    margin: 10px auto;
+    padding: 10px;
+
+    text-decoration: none;
+
+    color: #fff;
+    border-radius: 10px;
+    background: #8f7a66;
+}
+
+header #newgame_button:hover
+{
+    background: #9f8b77;
+}
+
+header .back-btn:hover
+{
+    background: #9f8b77;
+}
+
+header p
+{
+    font-family: Arial;
+    font-size: 20px;
+
+    float: left;
+
+    width: 50%;
+}
+
+#scorediv
+{
+    overflow: hidden;
+
+    margin: auto;
+}
+
+#grid_container
+{
+    position: relative;
+
+    width: 345px;
+    height: 345px;
+    margin: 20px auto;
+    padding: 15px;
+
+    border-radius: 10px;
+    background: #bbada0;
+}
+
+.grid_cell
+{
+    position: absolute;
+
+    width: 75px;
+    height: 75px;
+
+    border-radius: 6px;
+    background: #ccc0b3;
+}
+
+.number_cell
+{
+    font-family: Arial;
+    font-weight: bold;
+
+    position: absolute;
+
+    text-align: center;
+}
+
+#gameover
+{
+    border-radius: 10px;
+    font-size: 0;
+    font-weight: bold;
+
+    position: absolute;
+    z-index: 100;
+
+    width: 0;
+    height: 0;
+
+    text-align: center;
+
+    color: #f00;
+    background: rgba(0, 0, 0, .5);
+}
+
+#gameover p
+{
+    margin: 20px auto;
+}

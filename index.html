@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>2048</title>
+</head>
+<link rel="stylesheet" href="styles/main.css">
+
+<body>
+    <div class="wrap">
+        <header>
+            <h1>2048</h1>
+            <div class="btn">
+                <a href="javascript:;" id="newgame_button">新游戏</a>
+                <a href="javascript:;" class="back-btn">退 出</a>
+            </div>
+            <div id="scorediv">
+                <p>分数: <span id="score">0</span></p>
+                <p>最高分: <span id="highest_score">0</span></p>
+            </div>
+        </header>
+
+        <div id="grid_container">
+            <div id="grid_cell_0_0" class="grid_cell"></div>
+            <div id="grid_cell_0_1" class="grid_cell"></div>
+            <div id="grid_cell_0_2" class="grid_cell"></div>
+            <div id="grid_cell_0_3" class="grid_cell"></div>
+
+            <div id="grid_cell_1_0" class="grid_cell"></div>
+            <div id="grid_cell_1_1" class="grid_cell"></div>
+            <div id="grid_cell_1_2" class="grid_cell"></div>
+            <div id="grid_cell_1_3" class="grid_cell"></div>
+
+            <div id="grid_cell_2_0" class="grid_cell"></div>
+            <div id="grid_cell_2_1" class="grid_cell"></div>
+            <div id="grid_cell_2_2" class="grid_cell"></div>
+            <div id="grid_cell_2_3" class="grid_cell"></div>
+
+            <div id="grid_cell_3_0" class="grid_cell"></div>
+            <div id="grid_cell_3_1" class="grid_cell"></div>
+            <div id="grid_cell_3_2" class="grid_cell"></div>
+            <div id="grid_cell_3_3" class="grid_cell"></div>
+            <div id="gameover">
+                <p>Game Over!</p>
+                <p>再试一次吧!</p>
+                <p>O(∩_∩)O~</p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/support.js"></script>
+    <script src="scripts/animate.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
